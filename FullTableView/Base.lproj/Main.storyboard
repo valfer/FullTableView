@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A361c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -38,16 +39,15 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="nlm-5x-8BZ"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="n20-yS-68m"/>
                                 </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sBZ-8v-Mke" secondAttribute="bottom" id="BnW-tx-B36"/>
-                            <constraint firstAttribute="trailing" secondItem="sBZ-8v-Mke" secondAttribute="trailing" id="Ijs-Ic-ers"/>
-                            <constraint firstItem="sBZ-8v-Mke" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SiJ-Br-rKm"/>
-                            <constraint firstItem="sBZ-8v-Mke" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qT2-Ih-RP3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sBZ-8v-Mke" secondAttribute="bottom" id="MaF-xR-Pp3"/>
+                            <constraint firstItem="sBZ-8v-Mke" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="NRw-vD-Te1"/>
+                            <constraint firstItem="sBZ-8v-Mke" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="cVl-pf-MZ8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sBZ-8v-Mke" secondAttribute="trailing" constant="-16" id="ts7-gn-jzx"/>
                         </constraints>
                     </view>
                     <connections>
